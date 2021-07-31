@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        ul.nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: teal;
+        }
+        
+        ul.nav li {
+            float: left;
+        }
+        
+        ul.nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        ul.nav li a:hover:not(.active) {
+            background-color: black;
+        }
+        
+        ul.nav li a.active {
+            background-color: rgb(124, 105, 105);
+        }
+        
+        ul.nav li.right {
+            float: right;
+        }
+        
+        @media screen and (max-width: 600px) {
+            ul.nav li.right,
+            ul.nav li {
+                float: none;
+            }
+        }
+        
+        .home {
+            height: 100vh;
+            background-color: #333;
+            color: white;
+        }
+        
+        .news {
+            height: 100vh;
+            background-color: #333;
+            color: white;
+        }
+        
+        .contact {
+            height: 100vh;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="nav">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="right"><a href="#about">About</a></li>
+    </ul>
+
+    <div class="home">
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptas enim consequatur unde quam dignissimos nobis a illo, itaque alias beatae maxime porro ab explicabo laudantium provident cumque nulla vitae!</p>
+    </div>
+    <div id="news" class="news">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p style="text-align: justify; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut consectetur, repellat ad nam, labore quidem esse exercitationem et ipsam ex. Placeat dolor doloremque quis debitis inventore fuga accusamus quidem reiciendis alias, eos voluptatem
+            aspernatur, exercitationem magnam perspiciatis dolore laboriosam similique quo? Harum animi eos beatae culpa voluptates blanditiis, cupiditate minima, maxime quos porro non quam laudantium ipsam. Aliquid odit labore nihil possimus illum vel
+            iure voluptatum. Illo aliquid dolorum porro nemo repudiandae amet dolorem tenetur eaque vel enim quam voluptatibus odio necessitatibus earum, ad consequatur alias aut inventore non nostrum iusto! Dolores possimus hic reprehenderit voluptates
+            qui, iste pariatur voluptate praesentium ex illum? Excepturi possimus eum hic maiores? Nobis illo similique soluta, recusandae dolor est magnam libero optio officiis velit possimus reiciendis corporis iure debitis deserunt commodi voluptate
+            mollitia impedit magni perferendis natus! Mollitia eaque nulla culpa dolores, a quibusdam repudiandae dignissimos velit debitis veniam laudantium, cumque inventore tempore, perspiciatis asperiores nisi quis aliquid fuga odio ipsum est! Nesciunt
+            voluptas doloremque necessitatibus cumque culpa harum illum quibusdam ex aperiam tempora esse sint ipsam aspernatur perspiciatis in, sed deserunt et repudiandae quasi perferendis laborum. Laborum saepe qui vitae labore. Iusto dolor amet esse
+            necessitatibus, atque debitis reiciendis commodi harum quis perspiciatis cumque sint, praesentium unde sit animi cum aut saepe ullam eum incidunt sunt distinctio rerum? Est blanditiis pariatur quos quibusdam saepe adipisci suscipit minima
+            tempore repudiandae sequi eaque doloribus voluptas obcaecati tempora ratione, culpa rerum corrupti incidunt vel illo perferendis. Tempore dolor soluta quae illum, ex nesciunt temporibus porro commodi magnam iste molestiae adipisci, labore
+            mollitia voluptates nobis necessitatibus ullam modi provident a cupiditate. Laboriosam sit eligendi illum fugiat ea? Modi eveniet maxime dignissimos tenetur assumenda, sapiente nisi magnam. Nemo voluptas beatae ex unde ratione aliquid quia
+            deserunt cum quod provident. Aspernatur reprehenderit nihil eos deleniti iste eum ea.</p>
+    </div>
+    <div id="contact" class="contact">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p style="text-align: justify; ">Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+
+</body>
+
+</html>
